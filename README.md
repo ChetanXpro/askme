@@ -1,2 +1,2 @@
 # askme (WIP)
-A cli tool to ask question from a pdf
+A cli tool to chat with your pdf data
