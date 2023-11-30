@@ -52,7 +52,7 @@ This will prompt the user to provided PDF document path and then upsert it into 
 
 ```askme ask```
 
-Enter your search query to find similar documents within your vector database.
+This will prompt the user to decide for which pdf user want to search query to find similar documents within your vector database.
 
 License
 
