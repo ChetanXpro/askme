@@ -36,3 +36,24 @@ askme comes with a set of commands that allow you to interact with your vector d
 
 
 ## Usage
+
+### Setting Up Secrets
+```askme setup```
+
+Follow the on-screen prompts to enter your API keys and other necessary configuration details.
+
+### Adding a PDF to Vector DB
+
+```askme add```
+
+This will prompt the user to provided PDF document path and then upsert it into vectorDB and making it available for similarity searches.
+
+### Performing a Similarity Search
+
+```askme ask```
+
+Enter your search query to find similar documents within your vector database.
+
+License
+
+askme is made available under the MIT License. See the LICENSE file for more information.
