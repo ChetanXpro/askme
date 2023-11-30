@@ -54,6 +54,6 @@ This will prompt the user to provided PDF document path and then upsert it into 
 
 This will prompt the user to decide for which pdf user want to search query to find similar documents within your vector database.
 
-License
+# License
 
 askme is made available under the MIT License. See the LICENSE file for more information.
