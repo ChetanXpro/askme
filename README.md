@@ -54,6 +54,20 @@ This will prompt the user to provided PDF document path and then upsert it into 
 
 This will prompt the user to decide for which pdf user want to search query to find similar documents within your vector database.
 
+
+## Feature To-Do List
+
+Here are some of the features that are planned for future releases:
+
+- [ ] Add Qdrant DB support.
+- [ ] Improve error handling and logging.
+- [ ] Create a user-friendly setup wizard.
+- [ ] Add support for llama 2 and some other llm
+
+
+Feel free to suggest new features by [opening an issue](https://github.com/chetanxpro/askme/issues) on GitHub.
+
+
 # License
 
 askme is made available under the MIT License. See the LICENSE file for more information.
