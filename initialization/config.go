@@ -8,11 +8,11 @@ import (
 )
 
 type Config struct {
-	OpenaiApiKeys  string
-	HttpPort       int
-	HttpProxy      string
-	QdrantAddrGrpc string
-	QdrantAddrHttp string
+	OpenaiApiKeys       string
+	PineconeProjectName string
+	PineconeIndexName   string
+	PineconeEnvironment string
+	PineconeAPIKEY      string
 }
 
 func LoadConfig(cfg string) *Config {
@@ -21,11 +21,11 @@ func LoadConfig(cfg string) *Config {
 	viper.AutomaticEnv()
 
 	config := &Config{
-		OpenaiApiKeys:  getViperStringValue("OPENAI_KEY", ""),
-		HttpPort:       getViperIntValue("HTTP_PORT", 8000),
-		HttpProxy:      getViperStringValue("HTTP_PROXY", ""),
-		QdrantAddrGrpc: getViperStringValue("QDRANT_ADDRGRPC", "localhost:6334"),
-		QdrantAddrHttp: getViperStringValue("QDRANT_ADDRHTTP", "localhost:6333"),
+		OpenaiApiKeys:       getViperStringValue("openai_key", ""),
+		PineconeProjectName: getViperStringValue("pinecone_project_name", ""),
+		PineconeIndexName:   getViperStringValue("pinecone_index_name", ""),
+		PineconeEnvironment: getViperStringValue("pinecone_environment", ""),
+		PineconeAPIKEY:      getViperStringValue("pinecone_api_key", ""),
 	}
 
 	return config
