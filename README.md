@@ -1,13 +1,11 @@
-# askme 
-A cli tool to chat with your pdf data
+# askme CLI Tool
 
-## Commands
+`askme` is a command-line interface (CLI) tool designed to manage and interact with a vector database. It enables the setup of environment secrets and performs operations such as adding PDFs to a vector DB for similarity searches and executing similarity searches like a large language model (LLM).
 
-1. askme Setup
-- To setup config
+## Installation
 
-2. askme add
--  Add your pdf file in vectorDB
+Provide instructions on how to install `askme`, whether it is through precompiled binaries or building from source:
 
-3. askme ask
-- Ask any question to your pdf data
+```bash
+# Instructions for downloading precompiled binaries or using Go to install
+```
