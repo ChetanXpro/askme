@@ -19,7 +19,7 @@ Make sure to replace yourusername/askme with the actual path to your repository.
 
 If you are using an older version of Go that does not support the go install command with versioning, you can use go get:
 ```
-go get -u github.com/yourusername/askme
+go get -u github.com/chetanxpro/askme
 ```
 
 This will get the latest version of askme and install it.
