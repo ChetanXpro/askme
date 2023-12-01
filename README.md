@@ -11,9 +11,15 @@ For example, to download the binary for Linux amd64:
 
 ```
 curl -LO https://github.com/chetanxpro/askme/releases/download/v0.0.1/askme-linux-amd64
-chmod +x askme-linux-amd64
-mv askme-linux-amd64 /usr/local/bin/askme
+```
 
+Make binary executable
+```
+chmod +x askme-linux-amd64
+```
+Move the binary to system bin
+```
+mv askme-linux-amd64 /usr/local/bin/askme
 ```
 Make sure to use the correct URL for your release version and desired platform.
 
