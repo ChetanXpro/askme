@@ -37,7 +37,6 @@ go install github.com/chetanxpro/askme@latest
 
 The binary will be installed in your $GOPATH/bin directory or $GOBIN if set.
 
-Make sure to replace yourusername/askme with the actual path to your repository.
 
 
 ## Using go get (for versions before Go 1.16)
