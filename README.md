@@ -56,7 +56,7 @@ askme comes with a set of commands that allow you to interact with your vector d
 
 - `askme setup`: Set up secrets like OpenAI API key, Pinecone API key, etc.
 - `askme add`: Add a PDF into the vector DB to perform similarity searches later.
-- `askme ask`: Perform a similarity search, akin to querying an LLM.
+- `askme ask`: Perform a similarity search, and you will get better result with openai .
 
 
 ## Usage
