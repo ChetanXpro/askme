@@ -7,21 +7,25 @@ askme is a command-line interface (CLI) tool designed to manage and interact wit
 ### Using Precompiled Binaries
 
 You can download the precompiled binaries directly from the latest release on GitHub.
+
 For example, to download the binary for Linux amd64:
 
 ```
 curl -LO https://github.com/chetanxpro/askme/releases/download/v0.0.1/askme-linux-amd64
 ```
 
-Make binary executable
+Make the binary executable:
 ```
 chmod +x askme-linux-amd64
 ```
-Move the binary to system bin
+Move the binary to your system's bin folder:
 ```
 mv askme-linux-amd64 /usr/local/bin/askme
 ```
 Make sure to use the correct URL for your release version and desired platform.
+
+Note
+- Make sure to use the correct URL for your release version and the desired platform
 
 ### Using go install
 
