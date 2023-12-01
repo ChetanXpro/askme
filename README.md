@@ -1,6 +1,6 @@
 # askme 
 
-askme is a command-line interface (CLI) tool designed to manage and interact with PDF data. It can perform operations such as adding PDFs to a vector DB for similarity searches.
+askme is a command-line interface (CLI) tool to chat with your PDF data. It can perform operations such as adding PDFs to a vector DB for similarity searches etc.
 
 ## Installation
 
