@@ -55,6 +55,11 @@ var askCmd = &cobra.Command{
 		// 	i++
 		// }
 
+		if len(nameSpaces) == 0 {
+			fmt.Println("❌ No PDFs found in the index. Please add a PDF first.")
+			return
+		}
+
 		namespace := ""
 		prompt := &survey.Select{
 			Message: "Choose a PDF to ask question:",
