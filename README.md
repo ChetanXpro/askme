@@ -2,6 +2,13 @@
 
 askme is a command-line interface (CLI) tool to chat with your PDF data. It can perform operations such as adding PDFs to a vector DB for similarity searches etc.
 
+## Demo
+
+https://github.com/ChetanXpro/askme/assets/107798155/9f2cfba7-fe01-42a0-af07-919a28f4c740
+
+
+
+
 ## Installation
 
 ### Using Precompiled Binaries
